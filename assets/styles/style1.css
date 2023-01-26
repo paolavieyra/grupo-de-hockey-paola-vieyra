@@ -1,0 +1,19 @@
+header figure{
+    background: url(../img/design1_image1.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+header h1{
+    position: absolute;
+    top: 2px;
+    left: 400px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+
+}
+h2{
+    background-color: blue;
+}
