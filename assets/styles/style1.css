@@ -35,7 +35,7 @@ h2 {
 }
 
 h3 {
-    text-emphasis: bolt;
+    font-weight: bold;
 }
 
 .logo {
@@ -47,7 +47,7 @@ h3 {
 
 header a {
     display: block;
-    border: 2px, solid, blue;
+    border: 2px solid black;
     padding: 50px;
     box-sizing: border-box;
 }
