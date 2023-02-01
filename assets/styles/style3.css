@@ -130,7 +130,7 @@ figure img {
     top: 500px;
     border: 100px;
     padding: 100px;
-    height: 700px;
+    height: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -148,5 +148,12 @@ figure img {
  table tr > td{    
     height: 40px;
     padding-left: 60px;
+ }
+ #titulo_parrafo{
+    display: flex;
+ }
+ #titulo_parrafo2{
+    display: flex;
+    justify-content: space-between;
  }
     
