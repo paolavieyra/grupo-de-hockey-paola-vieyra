@@ -29,7 +29,7 @@ header h1 {
 }
 header a {
     position: relative;
-    bottom: 400px;
+    bottom: 350px;
     left: 75%;    
     padding: 10px;
     border: 1px solid black;
@@ -47,15 +47,15 @@ a:hover{
     position: absolute;
     left: 10px;
     width: 150px;
-    top: 5px;
+    bottom: 20px;
 }
 h2 {
     
     text-align: center;
     margin: 3px;
     position: absolute;
-    left: 70px;
-    top: 70px;
+    left: 450px;
+    bottom: 100px;
     color: brown;
     text-align: center;
    
