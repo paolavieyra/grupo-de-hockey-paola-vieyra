@@ -28,28 +28,34 @@ header h1 {
     font-style: normal;
     text-decoration: underline;
 }
-nav{
+
+nav {
     display: flex;
-    flex-direction: row-reverse;   
+    flex-direction: row-reverse;
 }
-nav #home{
+
+nav #home {
     order: 5;
 }
-nav #about{
+
+nav #about {
     order: 4;
 }
-nav #game{
+
+nav #game {
     order: 3;
 }
-nav #rules{
+
+nav #rules {
     order: 2;
 }
-nav #contact{
-order: 1;
+
+nav #contact {
+    order: 1;
 }
 
 header a {
-    position: relative;  
+    position: relative;
     padding: 10px;
     border: 1px solid black;
     background-color: burlywood;
@@ -88,7 +94,6 @@ h2 {
 
 h3 {
     font-weight: bold;
-    text-align: center;
 }
 
 
@@ -108,7 +113,8 @@ figure img {
     bottom: 20px;
     width: 500px;
 }
-#texto_rules{
+
+#texto_rules {
     position: absolute;
     left: 10px;
     top: 500px;
@@ -119,12 +125,14 @@ figure img {
     flex-direction: column;
     justify-content: center;
     justify-content: space-between;
-    
+
 }
-#titulo{
+
+#titulo {
     text-align: center;
 }
-#texto_game{
+
+#texto_game {
     position: absolute;
     left: 120px;
     top: 500px;
@@ -136,24 +144,29 @@ figure img {
     justify-content: center;
     justify-content: space-between;
 }
-#parrafo_game{
+
+
+#parrafo_game {
     text-decoration: underline;
     font-size: 20px;
 }
-#tabla{
+
+#tabla {
     display: flex;
-    align-items: center;   
-    
+    align-items: center;
+
 }
- table tr > td{    
+
+table tr>td {
     height: 40px;
     padding-left: 60px;
- }
- #titulo_parrafo{
+}
+
+#titulo_parrafo {
     display: flex;
- }
- #titulo_parrafo2{
+}
+
+#titulo_parrafo2 {
     display: flex;
     justify-content: space-between;
- }
-    
+}
