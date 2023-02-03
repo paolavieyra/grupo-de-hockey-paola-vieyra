@@ -170,6 +170,7 @@ table tr>td {
     display: flex;
     justify-content: space-between;
 }
-caption{
+
+caption {
     text-align: left;
 }
