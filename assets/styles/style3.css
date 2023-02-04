@@ -174,3 +174,35 @@ table tr>td {
 caption {
     text-align: left;
 }
+form{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+}
+fieldset{
+   background-color:lavender
+   
+}
+.apart1{
+    width: 100%;
+    padding: 50px;
+    text-align: left;
+    display: flex; 
+    align-self: flex-start;
+    justify-items: center;
+    justify-content: space-between;
+   
+}
+.foto{
+    display: flex;
+    align-self: flex-start;
+    
+    
+    
+}
+legend{
+   font-weight: bold;
+   text-align: center;
+}
