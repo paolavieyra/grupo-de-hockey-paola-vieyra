@@ -60,7 +60,7 @@ header a {
     border: 1px solid black;
     background-color: burlywood;
     text-decoration: none;
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, .5);
     color: black;
     font-weight: bolder;
     border-radius: 20%;
@@ -83,13 +83,14 @@ a:hover {
 h2 {
 
     text-align: center;
-    margin: 3px;
+    margin: 10px;
     position: relative;
     left: 40px;
-    top: 70px;
+    top: 80px;
     color: brown;
-    text-align: center;
+    text-shadow: 1px 2px 10px gray;
     text-decoration: underline;
+    font-size: 30px;
 }
 
 h3 {
@@ -152,8 +153,11 @@ figure img {
 }
 
 #tabla {
+    padding: 500px;
+    border: 5px;
     display: flex;
     align-items: center;
+    align-content: space-between;
 
 }
 
@@ -161,12 +165,21 @@ table tr>td {
     height: 40px;
     padding-left: 60px;
 }
+th{
+    font-size: 20px;
+    text-decoration: underline;
+}
 
 #titulo_parrafo {
+    padding: 30px;
+    border: 25px;
     display: flex;
+    justify-content: center;
 }
 
 #titulo_parrafo2 {
+    border: 25px;
+    padding: 30px;
     display: flex;
     justify-content: space-between;
 }
@@ -175,20 +188,21 @@ caption {
     text-align: left;
 }
 form{
-    padding: 50px;
-    display: flex;
+    padding: 50px;    
+    display: flex;    
     flex-direction: column;
-    gap: 20px;
+    gap: 25px;
    
 }
 fieldset{
-   background-color:lavender
-   
+   background-color:lavender;
+   padding: 30px;
+   box-shadow: 20px 20px 20px black;
 }
 .apart1{
     width: 100%;
     padding: 50px;
-    text-align: left;
+    text-align: left;    
     display: flex; 
     align-self: flex-start;
     justify-items: center;
@@ -196,13 +210,33 @@ fieldset{
    
 }
 .foto{
+    box-shadow: 10px 10px 30px black;
     display: flex;
-    align-self: flex-start;
-    
-    
-    
+    align-self: flex-start;    
 }
 legend{
    font-weight: bold;
    text-align: center;
+   font-size: 20px;
+   font-style: italic;
+}
+.submit{
+    width: 100px;
+    height: 100px;
+    background-color: lavender;
+    border-radius: 25%;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: underline;
+    box-shadow: 5px 5px 10px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.submit:hover{
+    background-color:blueviolet;
+    color: aliceblue;
+}
+iframe{
+    box-shadow: 2px 2px 15px black;
 }
