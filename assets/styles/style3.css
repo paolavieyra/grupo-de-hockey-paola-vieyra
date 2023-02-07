@@ -164,13 +164,14 @@ figure img {
 table tr>td {
     height: 40px;
     padding-left: 60px;
+  
 }
 th{
     font-size: 20px;
     text-decoration: underline;
 }
 
-#titulo_parrafo {
+.titulo_parrafo {
     padding: 30px;
     border: 25px;
     display: flex;
@@ -179,10 +180,12 @@ th{
 
 #titulo_parrafo2 {
     border: 25px;
-    padding: 30px;
+    padding: 50px;
+    font-size: larger;
     display: flex;
-    justify-content: space-between;
-}
+    justify-content: space-around;
+    text-align: center;
+    }
 
 caption {
     text-align: left;
@@ -197,6 +200,7 @@ form{
 fieldset{
    background-color:lavender;
    padding: 30px;
+   border-radius: 8px;
    box-shadow: 20px 20px 20px black;
 }
 .apart1{
@@ -238,5 +242,5 @@ legend{
     color: aliceblue;
 }
 iframe{
-    box-shadow: 2px 2px 15px black;
+    box-shadow: 4px 2px 15px black;
 }
