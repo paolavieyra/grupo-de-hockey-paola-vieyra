@@ -242,5 +242,21 @@ legend{
     color: aliceblue;
 }
 iframe{
+    border-radius: 20px;
     box-shadow: 4px 2px 15px black;
+    border: 1.5px solid blueviolet;
+}
+.about-main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    align-content: space-around;
+    gap: 50px;
+}
+#foto{
+    box-shadow: 3px 3px 10px black;
+    display: flex;
+    align-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
 }
